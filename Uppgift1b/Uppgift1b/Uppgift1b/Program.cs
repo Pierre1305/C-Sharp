@@ -47,7 +47,7 @@ namespace Uppgift1b
 
             //6. Skriv ut värdet av variabeln i konsolen. Talet 22 bör skrivas ut
             //Kod här
-            i = 22;
+            
             Console.WriteLine(i);
 
 
@@ -88,7 +88,7 @@ namespace Uppgift1b
             //14. Använd en hjälp klass för att konvertera 
             //och tilldela variabeln "b" värdet av variabeln "sant"
             //Kod här
-            b = Convert.ToString(sant);
+            b = Convert.ToBoolean(sant);
 
 
             //15. Sätt variabel "b":s värde till falskt
@@ -98,7 +98,7 @@ namespace Uppgift1b
             //16. Använd en hjälp klass för att konvertera 
             //och tilldela variabeln "sant" värdet av variabeln "b"
             //Kod här
-            sant = Convert.ToBoolean(b);
+            sant = Convert.ToString(b);
 
             //17. Skriv ut värdet av variabeln "sant" i konsolen. Bör vara False.
             //Kod här
