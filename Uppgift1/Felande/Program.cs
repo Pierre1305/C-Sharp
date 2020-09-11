@@ -12,6 +12,7 @@ namespace Felande
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
+        {
 
             Console.WriteLine("Hej, välkommen till uppgift 1!");
             Console.WriteLine("Tryck på en knapp för att fortsätta...");
@@ -26,12 +27,12 @@ namespace Felande
 
             bool sant = false;
 
-        Console.WriteLine();
+            Console.WriteLine();
             Console.WriteLine($"Boolean eller bool är en användbar datatyp när man vill avgör om något är sant eller falskt. Här ser vi variablen sants värde: {sant}");
             Console.WriteLine("Tryck på en knapp för att fortsätta...");
             Console.ReadKey();
 
-            
+
 
             DateTime datum = DateTime.Now;
 
@@ -55,5 +56,6 @@ namespace Felande
             Console.ReadKey();
 
             Console.ReadKey();
+        }
         }
 }
